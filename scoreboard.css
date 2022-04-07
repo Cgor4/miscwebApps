@@ -1,0 +1,185 @@
+
+.horizontalContainer { 
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+}
+
+.verticalLeftScore { 
+    display: flex;
+    flex-direction: column; 
+    align-content: baseline; 
+}
+
+
+.verticalRightScore { 
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-end; 
+}
+
+#leftScoreDisplay { 
+    width: 200px; 
+    height: 200px; 
+    border-width: 10px;
+    border-style: solid;
+    border-color: black; 
+    background-color: gray;
+
+}
+
+#rightScoreDisplay { 
+    width: 200px; 
+    height: 200px; 
+    border-width: 10px;
+    border-style: solid;
+    border-color: black; 
+    background-color: gray;
+
+}
+
+.timeVerticalContainer { 
+    display: flex;
+    flex-direction: column; 
+    align-content: center; 
+}
+
+.buttonHorizontalContainer { 
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+}
+
+.minutesButtonContainer { 
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-end; 
+}
+
+.secondsButtonContainer { 
+    display: flex;
+    flex-direction: column; 
+    align-content: flex-end; 
+}   
+
+#timeDisplay { 
+    width: 150px; 
+    height: 75px; 
+    border-width: 10px;
+    border-style: solid;
+    border-color: black; 
+    background-color: gray;
+
+}
+
+.periodInfo { 
+    width: 150px; 
+    height: 75px; 
+    border-width: 10px;
+    border-style: solid;
+    border-color: black; 
+    background-color: gray;
+
+}
+
+h2 { 
+    color: orange; 
+}  
+
+#leftScore { 
+    font-size: 100px; 
+    color: orange;
+    padding-left: 50px;
+    padding-bottom: 90px;
+}
+
+#rightScore { 
+    font-size: 100px; 
+    color: orange;
+    padding-left: 50px;
+    padding-bottom: 90px;
+}
+
+#timeNum { 
+    font-size: 40px;
+    padding-left: 35px;
+    padding-bottom: 45px;
+    color: orange;
+}
+
+#periodNum { 
+    font-size: 40px;
+    padding-left: 65px;
+    padding-bottom: 45px;
+    color: orange;
+} 
+
+#leftPossPen { 
+    width: 150px; 
+    height: 75px; 
+    border-width: 10px;
+    border-style: solid;
+    border-color: black; 
+    background-color: gray;
+}
+
+#rightPossPen { 
+    width: 150px; 
+    height: 75px; 
+    border-width: 10px;
+    border-style: solid;
+    border-color: black; 
+    background-color: gray; 
+}   
+
+#leftPossDot { 
+    height: 25px;
+    width: 25px; 
+    background-color: orange; 
+    border-radius: 30px; 
+    display: inline-block;
+}
+
+#rightPossDot { 
+    height: 25px;
+    width: 25px; 
+    background-color: orange; 
+    border-radius: 30px; 
+    display: inline-block;
+}
+
+.rightPossCleanup { 
+    padding-left: 30px;
+}
+
+.lefttPossCleanup { 
+    padding-left: 60px;
+}
+
+.timeLabel { 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#secLabel { 
+    padding-left: 25px;
+}
+
+#clockLabel { 
+    padding-left: 25px;
+}
+
+.headers { 
+    padding-left: 50px;
+}
+
+#periodHeader { 
+    padding-left: 20px;
+}
+
+.rootContainer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

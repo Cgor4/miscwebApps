@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="scoreboard.css">   
+    <script src="scoreboard.js"></script>
+</head>
+
+<body>
+
+<div class="rootContainer">
+
+<div class="horizontalContainer">
+
+    <!---Home Score-->
+
+    <div class="verticalLeftScore"> 
+
+        <h1 class="headers">HOME</h1>
+
+        <div id="leftScoreDisplay">
+        <h1 id="leftScore"></h1>
+        </div>
+
+    <button id="leftScoreAdd" onclick="addLeft()">+</button>
+    <button id="leftScoreSubtract" onclick="subLeft()">-</button> 
+
+    <div class="leftPossCleanup">
+    <h2>POSS / PEN</h2>
+    <div id="leftPossPen"> 
+      <div id="leftPossDot"></div>
+    </div>
+
+    </div>
+
+    </div>    
+
+
+    <div class="timeVerticalContainer">
+
+        <!--Time minutes : seconds display-->
+        <h1 class="headers">TIME</h1>
+        <div id="timeDisplay"> 
+           <h2 id="timeNum"></h2>
+        </div>
+       
+         <div class="timeLabel">
+            <h3>Min</h3> 
+            <h3 id="clockLabel">Clock</h3>
+            <h3 id="secLabel">Sec</h3>
+         </div>
+
+         <div class="buttonHorizontalContainer">   
+         
+            <div class="minutesButtonContainer">   
+
+                <button id="minuteAdd" onclick="addMins()">+</button>
+                <button id="minuteSubtract" onclick="subMins()">-</button>
+
+            </div>  
+
+            <button id="pause" onclick="timeToggle()">Start/Stop Clock</button>
+
+            <div class="secondsButtonContainer"> 
+
+                <button id="secondAdd" onclick="addSecs()">+</button>
+                <button id="secondSubtract" onclick="subSecs()">-</button> 
+
+            </div> 
+
+         </div>      
+
+         <button id="reset" onclick="reset()">Reset</button>
+
+         <!--Period Information-->
+         <h1 id="periodHeader">PEROID</h1>
+         
+         <div class="periodInfo">
+           <h2 id="periodNum"></h2>
+         </div>
+
+         <button id="switchPoss" onclick="switchPossession()">Switch Possession</button>  
+
+    </div>
+
+    <div class="verticalRightScore">     
+        
+        <h1 class="headers">VISITOR</h1>
+
+        <div id="rightScoreDisplay">
+            <h1 id="rightScore"></h1>
+        </div>
+
+        <button id="rightScoreAdd" onclick="addRight()">+</button>
+        <button id="rightScoreSubtract" onclick="subRight()">-</button> 
+
+        <div class="rightPossCleanup">
+      <h2>POSS / PEN</h2>
+        <div id="rightPossPen">                 
+            <div id="rightPossDot"></div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+</div>
+
+</div>
+
+</body>
+
+
+</html>
